@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nobelium",
+  "version": "${version}",
+  "name": "Nobelium",
+  "description": "Experimental general purpose client-side network stack manipulation/optimisation/improver mod.",
+  "authors": [
+    "Allink"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/8Y28pUZcpn",
+    "sources": "https://github.com/allinkdev/Nobelium/"
+  },
+  "license": "UNLICENSE",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.allinkdev.nobelium.Nobelium"
+    ]
+  },
+  "mixins": [
+    "nobelium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
